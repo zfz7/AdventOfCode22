@@ -6,6 +6,10 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    implementation("org.junit.jupiter:junit-jupiter-engine:5.8.1")
+}
+
 tasks {
     sourceSets {
         main {
