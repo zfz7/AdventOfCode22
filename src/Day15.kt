@@ -75,6 +75,7 @@ fun printGrid(grid: MutableList<MutableList<Char>>) {
         for (j in 0 until grid.size) {
             print(grid[j][i])
         }
+        print("|${grid[0].size - i}|$i")
         print("\n")
     }
 }
